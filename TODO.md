@@ -1,0 +1,4 @@
+-   [ ] Customize
+-   [ ] Add Reamde
+-   [ ] Add Footer (w/ credits)
+-   [ ] Add more pages
