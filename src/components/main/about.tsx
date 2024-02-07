@@ -15,7 +15,7 @@ const fallBackAge = 15;
 export function About() {
     React.useEffect(() => {
         console.log(
-            "%c 👋 plz leave a ⭐ on github, thx: https://git.dromzeh.dev/dromzeh.dev",
+            "%c 👋 plz leave a ⭐ on github, thx: https://github.com/realsnipc/snipc-website",
             "font-size: 12px; font-family: monospace; background: black; display: inline-block; color: white; padding: 12px; border-radius: 4px;",
         );
     }, []);
@@ -28,14 +28,13 @@ export function About() {
             <div className="flex flex-col space-y-2">
                 <p>
                     Hey, I&apos;m Shaurya - <Age /> year old full-stack
-                    developer specializing in infrastructure, serverless
-                    computing, and backend development.
+                    developer from India.
                 </p>
                 <p>
-                    Started programming at <AgeTooltip />. All active projects
-                    are available on my{" "}
+                    I started programming as a <AgeTooltip />. All my active
+                    projects are available on my{" "}
                     <Link
-                        href="https://github.com/dromzeh"
+                        href="https://github.com/realsnipc"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
@@ -44,44 +43,35 @@ export function About() {
                     .
                 </p>
                 <p>
-                    Mostly known for creating{" "}
-                    <Link
+                    I love code butt when I'm not wrangling code, you can find
+                    me reading or talking online somewhere (Though, free time's
+                    been a bit scarce lately!)
+                    {/* <Link
                         href="https://wanderer.moe/"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         wanderer.moe
-                    </Link>
-                    , an{" "}
-                    <Link
-                        href="https://git.wanderer.moe/"
-                        target="_blank"
-                        className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
-                    >
-                        open-source
-                    </Link>{" "}
-                    website hosting game assets with thousands of daily users.
-                    Currently developing an OC Sharing platform alongside,
-                    expected to release Q1-Q2 2024.
+                    </Link> */}
                 </p>
                 <p>
                     Contact me through{" "}
                     <Link
-                        href="https://discord.com/users/492731761680187403"
+                        href="https://discord.com/users/1019641343875760350"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         Discord
-                    </Link>{" "}
-                    or email{" "}
+                    </Link>
+                    . You can also schedule a{" "}
                     <Link
-                        href="mailto:marcel@dromzeh.dev"
+                        href="https://cal.com/snipc"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
-                        marcel@dromzeh.dev
-                    </Link>
-                    . Expect responses to be prioritized based on importance.{" "}
+                        chit chat
+                    </Link>{" "}
+                    with me.
                 </p>
             </div>
         </div>
@@ -94,14 +84,11 @@ export function AgeTooltip() {
             <Tooltip>
                 <TooltipTrigger asChild>
                     <span className="text-neutral-100 hover:text-neutral-500 transition-all duration-150 cursor-pointer">
-                        6 years old
+                        12 year old
                     </span>
                 </TooltipTrigger>
                 <TooltipContent className="text-center max-w-[250px]">
-                    <p>
-                        Seriously, I did everything on an unused hand-me-down
-                        laptop running Windows 7.
-                    </p>
+                    <p>Got my first HTML page running on browser.</p>
                 </TooltipContent>
             </Tooltip>
         </TooltipProvider>
