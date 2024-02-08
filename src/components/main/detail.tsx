@@ -5,7 +5,7 @@ export function MoreInfo() {
     return (
         <div>
             <h2 className="text-neutral-100 font-bold text-lg mb-2">
-                More Info
+                {/* More Info */}
             </h2>
             <ul className="pl-4 list-disc">
                 {/* <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />

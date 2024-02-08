@@ -13,6 +13,7 @@ import {
 } from "../ui/command";
 import { useRouter } from "next/navigation"; // usePathname
 import { Command as CommandIcon } from "lucide-react";
+import { EMAIL, GIT_URL } from "~/data/config";
 
 import {
     ArrowUpDown,
@@ -96,11 +97,7 @@ export function CommandMenu() {
                         {/* TODO(dromzeh): would be cool if it showed source code of the active page? maybe.. considering it's file based routing: tree/main/src/app..  */}
                         <CommandItem
                             onSelect={() =>
-                                runCommand(() =>
-                                    router.push(
-                                        "https://git.dromzeh.dev/dromzeh.dev/",
-                                    ),
-                                )
+                                runCommand(() => router.push(`${GIT_URL}`))
                             }
                         >
                             <Github size={16} />
@@ -108,9 +105,7 @@ export function CommandMenu() {
                         </CommandItem>
                         <CommandItem
                             onSelect={() =>
-                                runCommand(() =>
-                                    router.push("mailto:marcel@dromzeh.dev"),
-                                )
+                                runCommand(() => router.push(`mailto:${EMAIL}`))
                             }
                         >
                             <Mail size={16} />
