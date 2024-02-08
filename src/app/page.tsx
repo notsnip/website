@@ -5,10 +5,11 @@ import type { Metadata } from "next";
 import { JoinWaitlist } from "~/components/main/waitlist";
 import { MoreInfo } from "~/components/main/detail";
 import { WorkContainer } from "~/components/work/work-container";
+import { URL as siteURL } from "~/data/config";
 
 export const metadata: Metadata = {
-    title: "home • snipc",
-    // metadataBase: new URL("https://dromzeh.dev"),
+    title: "Shaurya",
+    metadataBase: siteURL,
 };
 
 export default function Home() {

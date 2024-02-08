@@ -1,4 +1,4 @@
--   [ ] Customize
+-   [ ] Update more info
 -   [ ] Add Reamde
--   [ ] Add Footer (w/ credits)
--   [ ] Add more pages
+-   [ ] Add credits
+-   [ ] Add title and favicon

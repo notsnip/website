@@ -65,7 +65,7 @@ export function About() {
                     </Link>
                     {""} or {""}
                     <Link
-                        href={EMAIL}
+                        href={`mailto:${EMAIL}`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >

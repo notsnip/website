@@ -8,7 +8,7 @@ export function MoreInfo() {
                 More Info
             </h2>
             <ul className="pl-4 list-disc">
-                <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />
+                {/* <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />
                 <MoreInfoItem question="Languages" answer="JS, TS, Python." />
                 <MoreInfoItem
                     question="Technologies"
@@ -18,7 +18,7 @@ export function MoreInfo() {
                     question="Open to Work"
                     answer="Feel free to reach out."
                     link="https://snipc.me"
-                />
+                /> */}
             </ul>
         </div>
     );
