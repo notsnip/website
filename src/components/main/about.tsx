@@ -8,6 +8,7 @@ import {
 } from "../ui/tooltip";
 import dayjs from "dayjs";
 import * as React from "react";
+import { EMAIL } from "../../data/config";
 
 const ageDateTimestamp = "2009-02-09T00:00:00Z";
 const fallBackAge = 15;
@@ -43,9 +44,8 @@ export function About() {
                     .
                 </p>
                 <p>
-                    I love code but when I'm not wrangling code, you can find
-                    me playing games or learning something (Though, free time's
-                    been a bit scarce lately!)
+                    I love code but when I'm not wrangling code, you can find me
+                    playing games or learning something.
                     {/* <Link
                         href="https://wanderer.moe/"
                         target="_blank"
@@ -55,13 +55,21 @@ export function About() {
                     </Link> */}
                 </p>
                 <p>
-                    Contact me through{" "}
+                    You can contact me through{" "}
                     <Link
                         href="https://discord.com/users/1019641343875760350"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         Discord
+                    </Link>
+                    {""} or {""}
+                    <Link
+                        href={EMAIL}
+                        target="_blank"
+                        className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
+                    >
+                        email
                     </Link>
                     . You can also schedule a{" "}
                     <Link

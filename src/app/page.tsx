@@ -8,7 +8,7 @@ import { WorkContainer } from "~/components/work/work-container";
 
 export const metadata: Metadata = {
     title: "home • snipc",
-    metadataBase: new URL("https://dromzeh.dev"),
+    // metadataBase: new URL("https://dromzeh.dev"),
 };
 
 export default function Home() {
@@ -18,7 +18,6 @@ export default function Home() {
                 <section className="flex flex-col space-y-6">
                     <LanyardProfile />
                     <About />
-                    <WorkContainer />
                     <MoreInfo />
                 </section>
             </div>
