@@ -28,7 +28,7 @@ export function About() {
             </h2>
             <div className="flex flex-col space-y-2">
                 <p>
-                    Hey, I&apos;m Shaurya - <Age /> year old full-stack
+                    Hey, I&apos;m Shaurya / Snipc - <Age /> year old full-stack
                     developer from India.
                 </p>
                 <p>
@@ -71,7 +71,7 @@ export function About() {
                     >
                         email
                     </Link>
-                    . You can also schedule a{" "}
+                    . Maybe also schedule a{" "}
                     <Link
                         href="https://cal.com/snipc"
                         target="_blank"
