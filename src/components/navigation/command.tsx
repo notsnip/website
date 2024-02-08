@@ -8,10 +8,8 @@ import {
     CommandGroup,
     CommandInput,
     CommandSeparator,
-    // CommandShortcut,
-    // Command,
 } from "../ui/command";
-import { useRouter } from "next/navigation"; // usePathname
+import { useRouter } from "next/navigation";
 import { Command as CommandIcon } from "lucide-react";
 import { EMAIL, GIT_URL } from "~/data/config";
 
