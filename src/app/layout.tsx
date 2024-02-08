@@ -19,6 +19,7 @@ export default function RootLayout({
 }: RootLayoutProps): React.ReactElement {
     return (
         <html lang="en">
+            <link rel="icon" type="image/x-icon" href="/favicon.webp"></link>
             <body
                 className={`${geist.className} h-full scroll-smooth antialiased`}
             >
