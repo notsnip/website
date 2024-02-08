@@ -1,4 +1,3 @@
 -   [ ] Update more info
 -   [ ] Add Reamde
 -   [ ] Add credits
--   [ ] Add title and favicon

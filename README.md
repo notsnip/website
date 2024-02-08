@@ -1,33 +1,42 @@
-# dromzeh.dev
+## Personal Website 🌍
 
----
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Source code for my personal website, [dromzeh.dev](https://dromzeh.dev).
+## Tech Stack
 
-Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), [TypeScript](https://www.typescriptlang.org/) & [Million](https://www.million.dev).
+-   Next.js
+-   Tailwind CSS
+-   Lucide Icons
+-   Million
 
-Using [Lanyard](https://lanyard.rest) for Discord Presence.
+## Get for yourself
 
-## Development
+-   Setup the configs in `/src/data/config.js`
 
-```bash
-pnpm i && pnpm dev
+```
+URL = "snipc.me";
+EMAIL = `mail@snipc.me`;
+GIT_URL = "https://github.com/realsnipc/snipc-website";
 ```
 
-## Build
+-   Hit `npm i` to install dependencies with npm
 
-```bash
-pnpm i && pnpm build
+```
+npm install
 ```
 
-## Deploy
 
-Deployment is done via [Cloudflare Pages](https://pages.cloudflare.com/), using [next-on-pages](https://github.com/cloudflare/next-on-pages).
+-   Customize and you are good to go!
 
-Cache is cleared via a [Workflow](.github/workflows/cf-pages-await.yml) that runs on every push.
+### Why I opted for a new website?
+I'm creating a new website to start fresh with clean code and a simpler, more minimalist design.
 
-## License
+## Credits ✨
 
-Licensed under the [GNU Affero General Public License v3.0](LICENSE)
+This project is a fork of dromzeh's repository. Huge props to [dromzeh](https://github.com/dromzeh) for their original work ☁️.
 
-**You must state all significant changes made to the original software, make the source code available to the public with credit to the original author, original source, and use the same license.**
+[Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
+
+And, to all awesome people out there who contributed in any way!
