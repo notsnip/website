@@ -43,8 +43,8 @@ export function About() {
                     .
                 </p>
                 <p>
-                    I love code butt when I'm not wrangling code, you can find
-                    me reading or talking online somewhere (Though, free time's
+                    I love code but when I'm not wrangling code, you can find
+                    me playing games or learning something (Though, free time's
                     been a bit scarce lately!)
                     {/* <Link
                         href="https://wanderer.moe/"

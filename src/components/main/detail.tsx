@@ -1,4 +1,5 @@
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export function MoreInfo() {
     return (
@@ -7,23 +8,16 @@ export function MoreInfo() {
                 More Info
             </h2>
             <ul className="pl-4 list-disc">
-                <MoreInfoItem question="Timezone" answer="Europe/London" />
+                <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />
+                <MoreInfoItem question="Languages" answer="JS, TS, Python." />
                 <MoreInfoItem
-                    question="Languages"
-                    answer="TS, Rust, Python, Svelte."
+                    question="Technologies"
+                    answer="React.js, Next.js, Tailwind"
                 />
-                <MoreInfoItem
-                    question="Frameworks"
-                    answer="Hono, Next.js, SvelteKit."
-                />
-                <MoreInfoItem
-                    question="Infrastructure"
-                    answer="Cloudflare & DigitalOcean."
-                />
-                <MoreInfoItem question="Database" answer="LibSQL, flawless." />
                 <MoreInfoItem
                     question="Open to Work"
                     answer="Feel free to reach out."
+                    link="https://snipc.me"
                 />
             </ul>
         </div>
@@ -33,15 +27,25 @@ export function MoreInfo() {
 function MoreInfoItem({
     question,
     answer,
+    link,
 }: {
     question: string;
     answer: string;
+    link: string;
 }) {
     return (
-        <li className="mb-2">
-            <span className="text-white">{question}</span>{" "}
-            <ChevronRight className="h-3 w-3 text-gray-500 inline" />
-            <span>{answer}</span>
-        </li>
+        <Link href={link}>
+            <li className="mb-2">
+                <span className="text-white">{question}</span>{" "}
+                <ChevronRight className="h-3 w-3 text-gray-500 inline" />
+                <span>{answer}</span>
+            </li>
+        </Link>
     );
 }
+
+MoreInfoItem.defaultProps = {
+    question: "",
+    answer: "",
+    link: "/",
+};
