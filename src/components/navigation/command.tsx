@@ -24,6 +24,7 @@ import {
     X as CloseIcon,
     Github,
     Mail,
+    Globe,
 } from "lucide-react";
 
 import { useState, useEffect, useCallback } from "react";
@@ -94,6 +95,18 @@ export function CommandMenu() {
                     </CommandGroup>
                     <CommandSeparator />
                     <CommandGroup heading="Actions">
+                        <CommandItem
+                            onSelect={() =>
+                                runCommand(() =>
+                                    router.push(
+                                        `https://github.com/realsnipc/website`,
+                                    ),
+                                )
+                            }
+                        >
+                            <Globe size={16} />
+                            <span className="ml-2">Old Website</span>
+                        </CommandItem>
                         {/* TODO(dromzeh): would be cool if it showed source code of the active page? maybe.. considering it's file based routing: tree/main/src/app..  */}
                         <CommandItem
                             onSelect={() =>

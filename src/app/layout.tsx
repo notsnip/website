@@ -8,7 +8,6 @@ const geist = GeistSans;
 
 export const metadata: Metadata = {
     title: "snipc",
-    metadataBase: new URL("https://dromzeh.dev"),
 };
 
 interface RootLayoutProps {
