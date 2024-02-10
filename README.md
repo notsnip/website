@@ -35,7 +35,7 @@ I'm creating a new website to start fresh with clean code and a simpler, more mi
 
 ## Credits ✨
 
-This project implements elements from dromzeh's repository. Huge props to [dromzeh](https://github.com/dromzeh) for their original work ☁️.
+This project implements code from dromzeh's repository. Huge props to [dromzeh](https://github.com/dromzeh) for their original work ☁️.
 
 [Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
 
