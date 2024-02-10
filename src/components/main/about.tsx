@@ -16,7 +16,7 @@ const fallBackAge = 15;
 export function About() {
     React.useEffect(() => {
         console.log(
-            "%c 👋 plz leave a ⭐ on github, thx: https://github.com/realsnipc/snipc-website",
+            "%c Credits: ",
             "font-size: 12px; font-family: monospace; background: black; display: inline-block; color: white; padding: 12px; border-radius: 4px;",
         );
     }, []);
@@ -28,12 +28,12 @@ export function About() {
             </h2>
             <div className="flex flex-col space-y-2">
                 <p>
-                    Hey, I&apos;m Shaurya / Snipc - <Age /> year old full-stack
+                    Hey, I&apos;m Shaurya - <Age /> year old full-stack
                     developer from India.
                 </p>
                 <p>
-                    I started programming as a <AgeTooltip />. All my active
-                    projects are available on my{" "}
+                    I started programming when I was <AgeTooltip />. All my
+                    active projects are available on my{" "}
                     <Link
                         href="https://github.com/realsnipc"
                         target="_blank"
@@ -69,17 +69,17 @@ export function About() {
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
-                        email
+                        Mail
                     </Link>
-                    . Maybe also schedule a{" "}
+                    . I'm also open for scheduling a{" "}
                     <Link
                         href="https://cal.com/snipc"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
-                        chit chat
-                    </Link>{" "}
-                    with me.
+                        e-meet
+                    </Link>.
+                    
                 </p>
             </div>
         </div>
@@ -92,7 +92,7 @@ export function AgeTooltip() {
             <Tooltip>
                 <TooltipTrigger asChild>
                     <span className="text-neutral-100 hover:text-neutral-500 transition-all duration-150 cursor-pointer">
-                        12 year old
+                        12 years old
                     </span>
                 </TooltipTrigger>
                 <TooltipContent className="text-center max-w-[250px]">

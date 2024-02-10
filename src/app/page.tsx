@@ -1,8 +1,8 @@
 import { About } from "~/components/main/about";
 import { LanyardProfile } from "~/components/main/lanyard/profile";
-import { FollowGrid } from "~/components/socials/follow-grid";
+// import { FollowGrid } from "~/components/socials/follow-grid";
 import type { Metadata } from "next";
-import { JoinWaitlist } from "~/components/main/waitlist";
+// import { JoinWaitlist } from "~/components/main/waitlist";
 import { MoreInfo } from "~/components/main/detail";
 import { WorkContainer } from "~/components/work/work-container";
 

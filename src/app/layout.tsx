@@ -19,6 +19,12 @@ export default function RootLayout({
 }: RootLayoutProps): React.ReactElement {
     return (
         <html lang="en">
+            <head>
+                <meta
+                    name="description"
+                    content="I'm Shaurya Chaudhary, a full-stack develper from India who loves to code. You may find me as snipc online."
+                />
+            </head>
             <link rel="icon" type="image/x-icon" href="/favicon.webp"></link>
             <body
                 className={`${geist.className} h-full scroll-smooth antialiased`}
