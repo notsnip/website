@@ -5,20 +5,20 @@ export function MoreInfo() {
     return (
         <div>
             <h2 className="text-neutral-100 font-bold text-lg mb-2">
-                {/* More Info */}
+                More Info
             </h2>
             <ul className="pl-4 list-disc">
-                {/* <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />
-                <MoreInfoItem question="Languages" answer="JS, TS, Python." />
+                <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />
+                <MoreInfoItem question="Languages" answer="JS, TS, Python" />
                 <MoreInfoItem
                     question="Technologies"
-                    answer="React.js, Next.js, Tailwind"
+                    answer="React.js, Next.js"
                 />
                 <MoreInfoItem
                     question="Open to Work"
                     answer="Feel free to reach out."
                     link="https://snipc.me"
-                /> */}
+                />
             </ul>
         </div>
     );

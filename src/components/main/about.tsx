@@ -78,8 +78,8 @@ export function About() {
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         e-meet
-                    </Link>.
-                    
+                    </Link>
+                    .
                 </p>
             </div>
         </div>

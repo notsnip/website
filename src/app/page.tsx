@@ -17,6 +17,7 @@ export default function Home() {
                 <section className="flex flex-col space-y-6">
                     <LanyardProfile />
                     <About />
+                    {/* <WorkContainer /> */}
                     <MoreInfo />
                 </section>
             </div>
