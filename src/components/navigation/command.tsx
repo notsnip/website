@@ -105,14 +105,13 @@ export function CommandMenu() {
                             <Globe size={16} />
                             <span className="ml-2">Old Website</span>
                         </CommandItem>
-                        {/* TODO(dromzeh): would be cool if it showed source code of the active page? maybe.. considering it's file based routing: tree/main/src/app..  */}
                         <CommandItem
                             onSelect={() =>
                                 runCommand(() => router.push(`${GIT_URL}`))
                             }
                         >
                             <Github size={16} />
-                            <span className="ml-2">View Source Code</span>
+                            <span className="ml-2">View Page Source Code</span>
                         </CommandItem>
                         <CommandItem
                             onSelect={() =>
