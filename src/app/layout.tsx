@@ -25,7 +25,11 @@ export default function RootLayout({
                     content="I'm Shaurya Chaudhary, a full-stack develper from India who loves to code. You may find me as snipc online."
                 />
             </head>
-            <link rel="icon" type="image/x-icon" href="/favicon.webp"></link>
+            <link
+                rel="icon"
+                type="image/x-icon"
+                href="https://img.icons8.com/material-outlined/24/minecraft-dirt-block.png"
+            ></link>
             <body
                 className={`${geist.className} h-full scroll-smooth antialiased`}
             >

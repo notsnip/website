@@ -73,7 +73,7 @@ export function About() {
                     >
                         e-meet
                     </Link>{" "}
-                    and talk tech (or maybe swap embarrassing coding stories)!
+                    and talk tech (or maybe swap embarrassing coding stories)
                 </p>
             </div>
         </div>
