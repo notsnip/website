@@ -16,8 +16,8 @@ const fallBackAge = 15;
 export function About() {
     React.useEffect(() => {
         console.log(
-            "%c Credits: ",
-            "font-size: 12px; font-family: monospace; background: black; display: inline-block; color: white; padding: 12px; border-radius: 4px;",
+            "%c Hello Devs! Orignal Work: https://github.com/dromzeh. Maintained and Updated: https://github.com/realsnipc",
+            "font-size: 12px; font-family: monospace; background: white; display: inline-block; color: black; padding: 12px; border-radius: 4px;",
         );
     }, []);
 
@@ -29,57 +29,51 @@ export function About() {
             <div className="flex flex-col space-y-2">
                 <p>
                     Hey, I&apos;m Shaurya - <Age /> year old full-stack
-                    developer from India.
+                    developer from India who has been passionate about
+                    programming since I was <AgeTooltip />.
                 </p>
                 <p>
-                    I started programming when I was <AgeTooltip />. All my
-                    active projects are available on my{" "}
+                    I actively develop projects, which you can find on my{" "}
                     <Link
                         href="https://github.com/realsnipc"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         GitHub
-                    </Link>
-                    .
+                    </Link>{" "}
+                    profile. I love code but when I'm not wrangling code, you
+                    can find me playing games or learning something.
                 </p>
                 <p>
-                    I love code but when I'm not wrangling code, you can find me
-                    playing games or learning something.
-                    {/* <Link
-                        href="https://wanderer.moe/"
-                        target="_blank"
-                        className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
-                    >
-                        wanderer.moe
-                    </Link> */}
-                </p>
-                <p>
-                    You can contact me through{" "}
+                    Wanna chat? Hit me up on{" "}
                     <Link
                         href="https://discord.com/users/1019641343875760350"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         Discord
-                    </Link>
-                    {""} or {""}
+                    </Link>{" "}
+                    or send me an{" "}
                     <Link
                         href={`mailto:${EMAIL}`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
-                        Mail
+                        email
                     </Link>
-                    . I'm also open for scheduling a{" "}
+                    .{" "}
+                </p>
+
+                <p>
+                    And hey, if you're feeling curious, we can even schedule an{" "}
                     <Link
                         href="https://cal.com/snipc"
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         e-meet
-                    </Link>
-                    .
+                    </Link>{" "}
+                    and talk tech (or maybe swap embarrassing coding stories)!
                 </p>
             </div>
         </div>

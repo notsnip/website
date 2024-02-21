@@ -111,7 +111,7 @@ export function CommandMenu() {
                             }
                         >
                             <Github size={16} />
-                            <span className="ml-2">View Page Source Code</span>
+                            <span className="ml-2">View Source Code</span>
                         </CommandItem>
                         <CommandItem
                             onSelect={() =>
