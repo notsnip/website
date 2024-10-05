@@ -4,6 +4,8 @@
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
+Message From Shaurya: Some information on the website is outdated and few links are invalid. I'm planning to re-launch a better version of the site soon.
+
 ## Tech Stack
 
 -   Next.js
