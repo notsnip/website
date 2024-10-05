@@ -6,7 +6,7 @@ import { WorkContainer } from "~/components/work/work-container";
 import UIPage from "~/components/ui/ui-page";
 
 export const metadata: Metadata = {
-    title: "notsnipc",
+    title: "notsnip",
 };
 
 export default function Home() {
