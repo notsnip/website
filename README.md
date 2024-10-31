@@ -42,3 +42,10 @@ This project implements code from dromzeh's repository. Huge thanks to [dromzeh]
 Special thanks to [Lanyard](https://github.com/Phineas/Lanyard) for a smooth and hassle-free Discord status integration.
 
 And to all the amazing people who contributed in any way!
+
+## TODO
+
+- [ ] Rewrite website content
+- [ ] Rewrite readme w/ image and proper stack details
+- [ ] Update invalid links
+- [ ] Draft a new design for the website
