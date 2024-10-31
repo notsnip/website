@@ -1,44 +1,44 @@
-## Personal Website 🌍
+# Personal Website
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Message From Shaurya: Some information on the website is outdated and few links are invalid. I'm planning to re-launch a better version of the site soon.
+### Message from Shaurya
+Some information on the website is outdated, and a few links are invalid. I'm planning to relaunch a better version of the site soon.
 
 ## Tech Stack
 
--   Next.js
--   Tailwind CSS
--   Lucide Icons
--   Million
+- Next.js
+- Tailwind CSS
+- Lucide Icons
+- Million
 
-## Get for yourself
+## Get Started
 
--   Setup the configs in `/src/data/config.js`
+1. Set up the configurations in `/src/data/config.js`:
 
-```
-URL = "snipc.me";
-EMAIL = `mail@snipc.me`;
-GIT_URL = "https://github.com/realsnipc/snipc-website";
-```
+   ```javascript
+   URL = "snipc.me";
+   EMAIL = `mail@snipc.me`;
+   GIT_URL = "https://github.com/realsnipc/snipc-website";
+   ```
 
--   Hit `npm i` to install dependencies with npm
+2. Run `npm install` to install dependencies:
 
-```
-npm install
-```
+   ```bash
+   npm install
+   ```
 
+3. Customize as needed, and you are good to go!
 
--   Customize and you are good to go!
-
-### Why I opted for a new website?
+### Why I Opted for a New Website?
 I'm creating a new website to start fresh with clean code and a simpler, more minimalist design.
 
-## Credits ✨
+## Credits
 
-This project implements code from dromzeh's repository. Huge props to [dromzeh](https://github.com/dromzeh) for their original work ☁️.
+This project implements code from dromzeh's repository. Huge thanks to [dromzeh](https://github.com/dromzeh) for their original work.
 
-[Lanyard](https://github.com/Phineas/Lanyard) for a sweet and hassle free Discord status integration 🛠️.
+Special thanks to [Lanyard](https://github.com/Phineas/Lanyard) for a smooth and hassle-free Discord status integration.
 
-And, to all awesome people out there who contributed in any way!
+And to all the amazing people who contributed in any way!
