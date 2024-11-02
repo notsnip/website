@@ -59,7 +59,7 @@ export function LanyardProfile() {
             </div>
             <div className="flex flex-col space-y-1">
                 <p className="text-neutral-100">
-                    {status.discord_user.display_name}
+                 snip
                 </p>
 
                 <div className="flex flex-row space-x-1 items-center">
