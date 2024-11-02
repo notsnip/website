@@ -1,0 +1,6 @@
+- [x] Rewrite website content
+- [ ] Rewrite readme w/ image and proper stack details
+- [x] Update invalid links
+- [ ] Replace 'More Info' section with local details
+- [ ] Add animation when user visits the website
+- [ ] Add link preview w/ Aceternity UI
