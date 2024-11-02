@@ -3,6 +3,7 @@
 import { Skeleton } from "~/components/ui/skeleton";
 import { useLanyard } from "react-use-lanyard";
 import Image from "next/image";
+import BlurFade from "~/components/ui/blur-fade";
 
 const statusMap = {
     online: "Online",
@@ -25,13 +26,14 @@ export function LanyardProfile() {
     });
 
     if (loading || !status) {
-        return <Skeleton className="h-[84px] w-[300px] rounded-md" />;
+        return <Skeleton className="h-[66px] w-[300px] rounded-md" />;
     }
 
     const activity = status.activities.find((activity) => activity.type !== 4);
 
     return (
-        <div className="flex flex-row space-x-2 items-center">
+        <BlurFade delay={0.25} inView>
+        <div className="flex flex-row space-x-2 items-center mb-1">
             <div className="relative mr-2">
                 <Image
                     src={`https://cdn.discordapp.com/avatars/${status.discord_user.id}/${status.discord_user.avatar}`}
@@ -57,7 +59,7 @@ export function LanyardProfile() {
             </div>
             <div className="flex flex-col space-y-1">
                 <p className="text-neutral-100">
-                    {status.discord_user.username}
+                    {status.discord_user.display_name}
                 </p>
 
                 <div className="flex flex-row space-x-1 items-center">
@@ -90,5 +92,6 @@ export function LanyardProfile() {
                 </div>
             </div>
         </div>
+        </BlurFade>
     );
 }

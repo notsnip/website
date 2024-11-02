@@ -22,7 +22,7 @@ export function About() {
     }, []);
 
     return (
-        <div className="">
+        <div className="mb-1">
             <h2 className="text-neutral-100 font-bold text-lg mb-2">
                 About Me
             </h2>
