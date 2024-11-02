@@ -45,7 +45,9 @@ And to all the amazing people who contributed in any way!
 
 ## TODO
 
-- [ ] Rewrite website content
+- [x] Rewrite website content
 - [ ] Rewrite readme w/ image and proper stack details
-- [ ] Update invalid links
-- [ ] Draft a new design for the website
+- [x] Update invalid links
+- [ ] Replace 'More Info' section with local details
+- [ ] Add animation when user visits the website
+- [ ] Add link preview w/ Aceternity UI

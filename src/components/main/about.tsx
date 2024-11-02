@@ -8,7 +8,7 @@ import {
 } from "../ui/tooltip";
 import dayjs from "dayjs";
 import * as React from "react";
-import { EMAIL } from "../../data/config";
+import { EMAIL,DISCORD_UID,GITHUB,EMEET_URL} from "../../data/config";
 
 const ageDateTimestamp = "2009-02-09T00:00:00Z";
 const fallBackAge = 15;
@@ -16,7 +16,7 @@ const fallBackAge = 15;
 export function About() {
     React.useEffect(() => {
         console.log(
-            "%c Hello Devs! Orignal Work: https://github.com/dromzeh. Maintained and Updated: https://github.com/realsnipc",
+            "%c Hello Devs!",
             "font-size: 12px; font-family: monospace; background: white; display: inline-block; color: black; padding: 12px; border-radius: 4px;",
         );
     }, []);
@@ -33,21 +33,20 @@ export function About() {
                     programming since I was <AgeTooltip />.
                 </p>
                 <p>
-                    I actively develop projects, which you can find on my{" "}
+                    Whenever I'm free I try to learn something interesting, you can find my projects on my{" "}
                     <Link
-                        href="https://github.com/realsnipc"
+                        href={`${GITHUB}`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         GitHub
                     </Link>{" "}
-                    profile. I love code but when I'm not wrangling code, you
-                    can find me playing games or learning something.
+                    profile. You can also find me playing games or watching youtube.
                 </p>
                 <p>
                     Wanna chat? Hit me up on{" "}
                     <Link
-                        href="https://discord.com/users/1019641343875760350"
+                        href={`${DISCORD_UID}`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
@@ -67,13 +66,13 @@ export function About() {
                 <p>
                     And hey, if you're feeling curious, we can even schedule an{" "}
                     <Link
-                        href="https://cal.com/snipc"
+                        href={`${EMEET_URL}`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         e-meet
                     </Link>{" "}
-                    and talk tech (or maybe swap embarrassing coding stories)
+                    and I hope I'll show up on time.
                 </p>
             </div>
         </div>
@@ -90,7 +89,7 @@ export function AgeTooltip() {
                     </span>
                 </TooltipTrigger>
                 <TooltipContent className="text-center max-w-[250px]">
-                    <p>Got my first HTML page running on browser.</p>
+                    <p>2021: Got my first HTML page running on browser.</p>
                 </TooltipContent>
             </Tooltip>
         </TooltipProvider>

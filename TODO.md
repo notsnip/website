@@ -1,3 +1,0 @@
--   [ ] Update more info
--   [ ] Add Reamde
--   [ ] Add credits
