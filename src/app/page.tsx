@@ -1,15 +1,16 @@
 import { About } from "~/components/main/about";
 import { LanyardProfile } from "~/components/main/lanyard/profile";
 import type { Metadata } from "next";
-import { MoreInfo } from "~/components/main/detail";
-// import { WorkContainer } from "~/components/work/work-container";
+// import { MoreInfo } from "~/components/main/detail";
+// import { WorkContainer } from "~/components/work/work-container";   
 import BlurFade from "~/components/ui/blur-fade";
 import UIPage from "~/components/ui/ui-page";
 
 export const metadata: Metadata = {
-    title: "notsnip - Shaurya Chaudhary",
+    title: "notsnip",
 };
 
+// Special thanks to drom
 export default function Home() {
     return (
         <UIPage>
@@ -17,7 +18,7 @@ export default function Home() {
                     <LanyardProfile />
                     <About />
                     {/* <WorkContainer /> */}
-                    <MoreInfo />
+                    {/* <MoreInfo /> */}
                     </BlurFade>
         </UIPage>
     );

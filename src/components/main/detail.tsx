@@ -1,6 +1,8 @@
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 
+const time= new Date().toLocaleTimeString("en-US", { timeZone: "Asia/Kolkata" })
+
 export function MoreInfo() {
     return (
         <div>
@@ -8,7 +10,7 @@ export function MoreInfo() {
                 More Info
             </h2>
             <ul className="pl-4 list-disc">
-                <MoreInfoItem question="Timezone" answer="Asia/Kolkata" />
+             <MoreInfoItem question="Timezone" answer="lol" />
                 <MoreInfoItem question="Languages" answer="JS, TS, Python" />
                 <MoreInfoItem
                     question="Technologies"
@@ -30,7 +32,7 @@ function MoreInfoItem({
     link,
 }: {
     question: string;
-    answer: string;
+    answer: any;
     link: string;
 }) {
     return (

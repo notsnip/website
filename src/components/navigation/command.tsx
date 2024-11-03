@@ -113,6 +113,7 @@ export function CommandMenu() {
                             <Github size={16} />
                             <span className="ml-2">View Source Code</span>
                         </CommandItem>
+                       
                         <CommandItem
                             onSelect={() =>
                                 runCommand(() => router.push(`mailto:${EMAIL}`))
@@ -120,6 +121,14 @@ export function CommandMenu() {
                         >
                             <Mail size={16} />
                             <span className="ml-2">Send an Email</span>
+                        </CommandItem>
+                        <CommandItem
+                            onSelect={() =>
+                                runCommand(() => router.push(`https://github.com/dromzeh`))
+                            }
+                        >
+                            <Github size={16} />
+                            <span className="ml-2">Special Thanks to Dromzeh</span>
                         </CommandItem>
                     </CommandGroup>
                 </CommandList>

@@ -16,7 +16,7 @@ const fallBackAge = 15;
 export function About() {
     React.useEffect(() => {
         console.log(
-            "%c Hello Devs!",
+            "%c Huge thanks to dromzeh for the foundational code for this website. https://github.com/dromzeh",
             "font-size: 12px; font-family: monospace; background: white; display: inline-block; color: black; padding: 12px; border-radius: 4px;",
         );
     }, []);
@@ -89,7 +89,7 @@ export function AgeTooltip() {
                     </span>
                 </TooltipTrigger>
                 <TooltipContent className="text-center max-w-[250px]">
-                    <p>2021: Got my first HTML page running on browser.</p>
+                    <p>Got my first HTML page running on browser in 2021.</p>
                 </TooltipContent>
             </Tooltip>
         </TooltipProvider>
