@@ -22,13 +22,13 @@ export default function RootLayout({
             <head>
                 <meta
                     name="description"
-                    content="I'm Shaurya Chaudhary, a full-stack develper from India who loves to code. You may find me as snipc online."
+                    content="I'm Shaurya Chaudhary, a student from India who is very passionate about tech. You may find me as notsnip or snipc online."
                 />
             </head>
             <link
                 rel="icon"
                 type="image/x-icon"
-                href="https://img.icons8.com/material-outlined/24/minecraft-dirt-block.png"
+                href="https://img.icons8.com/?size=100&id=dlN23b953qvQ&format=png&color=000000"
             ></link>
             <body
                 className={`${geist.className} h-full scroll-smooth antialiased`}
