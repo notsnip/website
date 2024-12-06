@@ -1,5 +1,3 @@
-# personal website
-
 This is a personal portfolio website built with Next.js, showcasing my skills, projects, and experiences.
 
 ## Overview
