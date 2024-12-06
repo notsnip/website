@@ -1,6 +1,6 @@
-This is a personal portfolio website built with Next.js, showcasing my skills, projects, and experiences.
-
 ## Overview
+
+This is a personal portfolio website built with Next.js, showcasing my skills, projects, and experiences.
 
 This portfolio website is a modern, responsive web application built using **Next.js** (a React-based framework) and **Radix UI** components for UI elements. It is designed to showcase a variety of projects and provide visitors with an overview of my professional skills and work.
 
