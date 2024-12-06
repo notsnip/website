@@ -3,6 +3,7 @@
 import { Skeleton } from "~/components/ui/skeleton";
 import { useLanyard } from "react-use-lanyard";
 import Image from "next/image";
+import BlurFade from "~/components/ui/blur-fade";
 
 const statusMap = {
     online: "Online",
@@ -31,7 +32,7 @@ export function LanyardProfile() {
     const activity = status.activities.find((activity) => activity.type !== 4);
 
     return (
-        // <BlurFade delay={0.25} inView>
+        <BlurFade delay={0.25} inView>
         <div className="flex flex-row space-x-2 items-center mb-1">
             <div className="relative mr-2">
                 <Image
@@ -91,6 +92,6 @@ export function LanyardProfile() {
                 </div>
             </div>
         </div>
-        /* </BlurFade> */
+        </BlurFade>
     );
 }

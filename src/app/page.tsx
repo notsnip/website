@@ -10,16 +10,16 @@ export const metadata: Metadata = {
     title: "notsnip",
 };
 
-// Special thanks to drom
+// Special thanks to dromzeh for the foundational code for this website -> https://github.com/dromzeh
 export default function Home() {
     return (
         <UIPage>
-             <BlurFade delay={0.25} inView>
+             <BlurFade delay={0.12} blur="2px" inView>
                     <LanyardProfile />
                     <About />
                     {/* <WorkContainer /> */}
                     {/* <MoreInfo /> */}
-                    </BlurFade>
+            </BlurFade>
         </UIPage>
     );
 }
