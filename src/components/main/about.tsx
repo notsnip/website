@@ -28,7 +28,7 @@ export function About() {
             </h2>
             <div className="flex flex-col space-y-2">
                 <p>
-                    Hey, I&apos;m Shaurya - <Age /> year old full-stack
+                    Hey, I&apos;m Shaurya - <Age /> year old no-stack
                     developer from India who has been passionate about
                     programming since I was <AgeTooltip />.
                 </p>
@@ -78,7 +78,6 @@ export function About() {
         </div>
     );
 }
-
 export function AgeTooltip() {
     return (
         <TooltipProvider delayDuration={100}>
