@@ -50,10 +50,6 @@ The website supports dynamic routing via Next.js, and you can add more sections 
 
 This project is a **fork** of the original portfolio website by [dromzeh](https://github.com/dromzeh), available under the **GPL 3.0 License**.
 
-- **Original Author**: [dromzeh](https://github.com/dromzeh)
-- **Components**: Radix UI for building accessible UI components.
-- **Framework**: Next.js for React-based static and server-rendered web applications.
-
 ## License
 
 This project is licensed under the **GPL 3.0 License**. See the [LICENSE](./LICENSE) file for more details.
