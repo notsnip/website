@@ -16,7 +16,7 @@ const fallBackAge = 15;
 export function About() {
     React.useEffect(() => {
         console.log(
-            "%c Huge thanks to dromzeh for the foundational code for this website. https://github.com/dromzeh",
+            "%c Heey Devs, I'm Shaurya.",
             "font-size: 12px; font-family: monospace; background: white; display: inline-block; color: black; padding: 12px; border-radius: 4px;",
         );
     }, []);

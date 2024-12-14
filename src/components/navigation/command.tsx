@@ -17,12 +17,12 @@ import {
     ArrowUpDown,
     CornerDownLeft,
     Layers3,
-    Package,
     Home,
     X as CloseIcon,
     Github,
     Mail,
     Globe,
+    Linkedin
 } from "lucide-react";
 
 import { useState, useEffect, useCallback } from "react";
@@ -95,18 +95,6 @@ export function CommandMenu() {
                     <CommandGroup heading="Actions">
                         <CommandItem
                             onSelect={() =>
-                                runCommand(() =>
-                                    router.push(
-                                        `https://github.com/realsnipc/website`,
-                                    ),
-                                )
-                            }
-                        >
-                            <Globe size={16} />
-                            <span className="ml-2">Old Website</span>
-                        </CommandItem>
-                        <CommandItem
-                            onSelect={() =>
                                 runCommand(() => router.push(`${GIT_URL}`))
                             }
                         >
@@ -114,6 +102,18 @@ export function CommandMenu() {
                             <span className="ml-2">View Source Code</span>
                         </CommandItem>
                        
+                        <CommandItem
+                            onSelect={() =>
+                                runCommand(() =>
+                                    router.push(
+                                        "https://linkedin.com/in/realshaurya"
+                                    )
+                                )
+                            }
+                        >
+                            <Linkedin size={16} />
+                            <span className="ml-2">LinkedIn</span>
+                        </CommandItem>
                         <CommandItem
                             onSelect={() =>
                                 runCommand(() => router.push(`mailto:${EMAIL}`))
