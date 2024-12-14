@@ -48,7 +48,7 @@ The website supports dynamic routing via Next.js, and you can add more sections 
 
 ## Credits
 
-This project is a **fork** of the original portfolio website by [dromzeh](https://github.com/dromzeh), available under the **GPL 3.0 License**.
+This project is a **fork** of the original portfolio website by [dromzeh](https://github.com/dromzeh), available under the **GPL 3.0 License**. Now maintained and developed by me. 
 
 ## License
 
