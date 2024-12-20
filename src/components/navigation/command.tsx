@@ -102,18 +102,7 @@ export function CommandMenu() {
                             <span className="ml-2">View Source Code</span>
                         </CommandItem>
                        
-                        <CommandItem
-                            onSelect={() =>
-                                runCommand(() =>
-                                    router.push(
-                                        "https://linkedin.com/in/realshaurya"
-                                    )
-                                )
-                            }
-                        >
-                            <Linkedin size={16} />
-                            <span className="ml-2">LinkedIn</span>
-                        </CommandItem>
+                       
                         <CommandItem
                             onSelect={() =>
                                 runCommand(() => router.push(`mailto:${EMAIL}`))

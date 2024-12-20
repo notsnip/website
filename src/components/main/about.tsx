@@ -41,29 +41,30 @@ export function About() {
                     >
                         GitHub
                     </Link>{" "}
-                    profile. You can also find me playing games or watching youtube.
+                    profile. I also enjoy playing video games or watching youtube.
                 </p>
                 <p>
-                    Wanna chat? Hit me up on{" "}
+                    {" "}
                     <Link
                         href={`${DISCORD_UID}`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
                         Discord
-                    </Link>{" "}
-                    or send me an{" "}
+                    </Link>.{" "}
+                {" "} 
                     <Link
-                        href={`mailto:${EMAIL}`}
+                        href={`https://linkedin.com/in/realshaurya`}
                         target="_blank"
                         className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
                     >
-                        email
+                        Linkedin
                     </Link>
-                    .{" "}
+                    .{" "} - Not Available '27
                 </p>
 
-                <p>
+                {/* <p>
+               
                     And hey, if you're feeling curious, we can even schedule an{" "}
                     <Link
                         href={`${EMEET_URL}`}
@@ -73,7 +74,7 @@ export function About() {
                         e-meet
                     </Link>{" "}
                     and I hope I'll show up on time.
-                </p>
+                </p> */}
             </div>
         </div>
     );
