@@ -11,7 +11,7 @@ import * as React from "react";
 import { EMAIL,DISCORD_UID,GITHUB,EMEET_URL} from "../../data/config";
 
 const ageDateTimestamp = "2009-02-09T00:00:00Z";
-const fallBackAge = 15;
+const fallBackAge = 16;
 
 export function About() {
     React.useEffect(() => {
@@ -60,7 +60,7 @@ export function About() {
                     >
                         Linkedin
                     </Link>
-                    .{" "} - Not Available '27
+                    .{" "} - I'm onto something. Not Available '27
                 </p>
 
                 {/* <p>
