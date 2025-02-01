@@ -27,7 +27,8 @@ export function About() {
                 About Me
             </h2>
             <div className="flex flex-col space-y-2">
-                <p>
+                p
+                {/* <p>
                     Hey, I&apos;m Shaurya - <Age /> year old no-stack
                     developer from India who has been passionate about
                     programming since I was <AgeTooltip />.
@@ -61,19 +62,6 @@ export function About() {
                         Linkedin
                     </Link>
                     .{" "} - I'm onto something. Not Available '27
-                </p>
-
-                {/* <p>
-               
-                    And hey, if you're feeling curious, we can even schedule an{" "}
-                    <Link
-                        href={`${EMEET_URL}`}
-                        target="_blank"
-                        className="text-neutral-100 hover:text-neutral-500 transition-all duration-150"
-                    >
-                        e-meet
-                    </Link>{" "}
-                    and I hope I'll show up on time.
                 </p> */}
             </div>
         </div>
