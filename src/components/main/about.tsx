@@ -27,7 +27,7 @@ export function About() {
                 About Me
             </h2>
             <div className="flex flex-col space-y-2">
-                <p>Cooking..</p>
+                <p>To whoever is visiting this page - I’m all in. This isn’t just about dreaming—it’s about doing. I’ll be back when the work speaks for itself.   </p>
                 {/* <p>
                     Hey, I&apos;m Shaurya - <Age /> year old no-stack
                     developer from India who has been passionate about
