@@ -41,7 +41,7 @@ export function About() {
                     >
                         GitHub
                     </Link>{" "}
-                    profile. I also enjoy playing video games or watching youtube.
+                    profile. I also enjoy playing video games and watching youtube.
                 </p>
                 <p>
                     {" "}
